@@ -156,7 +156,31 @@ echo color("green"," =================================== \n");
 					$debug['respon'] = json_decode($datas, true);
 				}
 			}else{
-				echo color("red","-] The code you entered is incorrect");
+
+setpin:
+         echo "\n".color("nevy","?] Mau set pin?: y/n ");
+         $pilih1 = trim(fgets(STDIN));
+         if($pilih1 == "y" || $pilih1 == "Y"){
+         //if($pilih1 == "y" && strpos($no, "628")){
+         echo color("red","========( PIN ANDA = 112233 )========")."\n";
+         $data2 = '{"pin":"787878"}';
+         $getotpsetpin = request("/wallet/pin", $token, $data2, null, null, $uuid);
+         echo "Otp set pin: ";
+         $otpsetpin = trim(fgets(STDIN));
+         $verifotpsetpin = request("/wallet/pin", $token, $data2, null, $otpsetpin, $uuid);
+         echo $verifotpsetpin;
+         }else if($pilih1 == "n" || $pilih1 == "N"){
+         die();
+         }else{
+         echo color("red","-] GAGAL!!!\n");
+         }
+         }
+         }
+         }
+         }else{
+         goto setpin;
+         }
+         }else{				echo color("red","-] The code you entered is incorrect");
 				echo color("green", "\n =================================== \n\n");
 				echo color("yellow","!] Please input again \n");
 				goto otp;
