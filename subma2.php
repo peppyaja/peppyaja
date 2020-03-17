@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Asia/Surabaya');
+date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo color("green"," =================================== \n");
 echo color("green"," Claim Voucher \n");
