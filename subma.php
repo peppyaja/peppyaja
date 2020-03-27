@@ -70,14 +70,14 @@ echo color("green"," =================================== \n");
 				}else{
 					echo "\n".color("red","-] Message: ".$message);
 					
-					echo "\n".color("yellow","!] Claim Voc GO FOOD TERBARU");
+					echo "\n".color("yellow","!] Claim Voc 30K");
 					echo "\n".color("yellow","!] Please wait...");
 					for($a=1;$a<=3;$a++){
 						echo color("yellow",".");
 						sleep(1);
 					}
 					sleep(3);
-					$boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"PAKEGOFOOD090320B"}');
+					$boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
 					$messageboba10 = fetch_value($boba10,'"message":"','"');
 					if(strpos($boba10, 'You can use this promo now...')){
 						echo "\n".color("green","+] Message: ".$messageboba10);
