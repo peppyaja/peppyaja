@@ -4,7 +4,7 @@ include "function.php";
 echo "\e[92m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 echo "\e[92m| __\e[93mDaftar\e[92m_\e[93mAkun\e[92m_\e[93m+\e[92m_\e[93mAuto\e[92m_\e[93mClaim\e[92m_\e[93mVoucher\e[92m_\e[93mFood\e[92m__|\n";
 echo "\e[92m| ___________\e[93m•_+\e[92m_\e[93mBuat\e[92m_\e[93mPIN\e[92m_\e[93m-_•\e[92m______________|\n";
-echo "\e[92m| _\e[91mUNTUK\e[92m_\e[91mREGISTRASI\e[92m_\e[91mSILAHKAN\e[92m_\e[91mHUBUNGI\e[92m_\e[91mkurang beruntung chanel\e[92m_|\n";
+echo "\e[92m| _\e[91msubcribe\e[92m_\e[91mkurang\e[92m_\e[91mberuntung\e[92m_\e[91mchanel\e[92m_\e[91 subcribe gratis lho\e[92m_|\n";
 echo "\e[92m| ___\e[93mTELEGRAM\e[92m_\e[91m:kurang beruntung chanel\e[92m___________________|\n";
 echo "\e[92m| ___\e[93mGITHUB\e[92m___\e[91m: subcribe chanelnya ya\e[92m___________|\n";
 echo "\e[92m| ___\e[93mVersion\e[92m__\e[91m:user login klik y atau sudah\e[92m_\e[93m-\e[92m_\e[93mVersi 3.48.2\e[92m_\e[93m21∆\e[92m____________|\n";
