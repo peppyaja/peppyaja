@@ -40,7 +40,7 @@ else
 		echo "\e[96m[🚫]        \e[91mMasukkan User Registrasi      \e[96m [🚫]\n";
 	        echo "\e[96m[🚫]              \e[91m⚠️ WARNING ⚠️             \e[96m [🚫]\n";
 		echo "\e[96m[🚫]           \e[91mSEGERA MINTA IZIN          \e[96m [🚫]\n";
-	        echo "\e[96m[🚫]             \e[91m@Rtiga Termux       \e[96m [🚫]\n";
+	        echo "\e[96m[🚫]             \e[91m@subma Termux       \e[96m [🚫]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
